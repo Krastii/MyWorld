@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import World3DVue from './components/World3D.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
       <HelloWorld msg="Hello, my name is Kirill and I am a Frontend Developer" />
+      <World3DVue />
     </div>
   </header>
 </template>
